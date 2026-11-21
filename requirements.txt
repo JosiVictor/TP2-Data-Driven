@@ -1,0 +1,16 @@
+fastapi
+uvicorn[standard]
+pydantic>=2
+python-dotenv
+
+# Parte 1 e Parte 2 (Questão 3) - modelos HuggingFace
+transformers
+torch
+sentencepiece
+sacremoses
+
+# Parte 2 - LangChain
+langchain-core
+langchain-groq
+langchain-huggingface
+langchain-openai   # opcional: só se usar OpenAI no lugar do Groq
